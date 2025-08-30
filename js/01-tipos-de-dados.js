@@ -23,15 +23,19 @@ let semValor;
 let usuario = null;
 
 let resultado = null;
-resultado = 42;
-resultado = "você marcou 42 pontos";
+console.log(typeof resultado);
 
-// Lidando com Symbol  - Simbolo. Representa um Identificador Único. Cada Symbol é ÚNICO.
+resultado = 42;
+console.log(typeof resultado);
+
+resultado = "você marcou 42 pontos";
+console.log(typeof resultado);
+
+// Lidando com Symbol - Simbolo. Representa um Identificador Único. Cada Symbol é ÚNICO.
 
 let simbolo1 = Symbol();
 let simbolo2 = Symbol("id"); /* cfe91128-f2cf-4b5d-a050-cc32eaf7fd77 */
 
-
 // Lidando com o BigInt - Para lidar com numeros gigantescos. Muito bom para analise de dados complexos
 
-let numeroGrande = 9007199254740992182371928731273010273n
+let numeroGrande = 9007199254740992182371928731273010273n;
