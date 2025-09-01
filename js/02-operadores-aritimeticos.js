@@ -36,7 +36,7 @@ console.log(typeof divisao);
 const numero3 = 5;
 const numero4 = 3;
 
-// 5³ (cinco elevado a 3) = 5x5X5
+// 5³ (cinco elevado a 3) = 5x5x5
 let exponenciacao = numero3 ** numero4;
 console.log(exponenciacao);
 
