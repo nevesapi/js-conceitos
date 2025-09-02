@@ -20,7 +20,7 @@ else - senão (se a condição não for atendida, executa o código dentro do el
 
 */
 
-let idade = 50;
+let idade = 36;
 // condicional simples
 // if (idade >= 18) {
 //   console.log("Você é maior de idade.");
@@ -34,6 +34,7 @@ let idade = 50;
 // }
 
 // condicional encadeada
+// Quando queremos analisar mais de uma condição
 if (idade > 18) {
   console.log("Maior de idade");
 } else if (idade <= 35) {
@@ -44,3 +45,16 @@ if (idade > 18) {
 
 const banana = "banana";
 console.log(banana);
+
+// Exemplo de condicional encadeada - avaliando notas
+let nota = 4.9;
+
+if (nota >= 9) {
+  console.log("Excelente");
+} else if (nota >= 7) {
+  console.log("Bom");
+} else if (nota >= 5) {
+  console.log("Regular");
+} else {
+  console.log("Reprovado");
+}
