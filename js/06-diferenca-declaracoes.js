@@ -5,11 +5,11 @@
 // obs.: não se esqueça de conectar este arquivo na index.html
 
 // o VAR é um elemento global, pode ser acessado em qualquer lugar, independente do contexto em que ele está inserido
-var x = 10;
 // const z = "zeta";
 // let y = "banana";
 
 if (true) {
+  var x = 10;
   // let e const são escopo de bloco
   // ou seja, só existe dentro do bloco if, para acessar o valor, depende do contexto onde ele está inserido
   const z = 30;
