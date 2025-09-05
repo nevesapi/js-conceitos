@@ -33,6 +33,11 @@ function cumprimentar(nome) {
   console.log(`Olá ${nome}. Seja bem vindo(a) novamente!`);
 }
 
+// 0 > 5
+for (let i = 0; i <= 5; i++) {
+  cumprimentar(i);
+}
+
 cumprimentar("Mago");
 cumprimentar("Kellita");
 cumprimentar("Juliana");
@@ -60,7 +65,7 @@ function subtrair(a, b) {
   return a - b;
 
   // código que vem depois do return dentro da função é completamente ignora, pois o programa/função para de ser executado assim que encontra o return
-  console.log(`Depois do return ${teste}`);
+  // console.log(`Depois do return ${teste}`);
 }
 
 let resultadoSubtracao = subtrair(n1, n2);
